@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Library Include="lib\TwsSocketClient.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EPosixClientSocket.cpp" />
+    <ClCompile Include="EClientSocketBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommissionReport.h" />
+    <ClInclude Include="CommonDefs.h" />
+    <ClInclude Include="Contract.h" />
+    <ClInclude Include="EClient.h" />
+    <ClInclude Include="EClientSocketBase.h" />
+    <ClInclude Include="EPosixClientSocket.h" />
+    <ClInclude Include="EPosixClientSocketPlatform.h" />
+    <ClInclude Include="EWrapper.h" />
+    <ClInclude Include="Execution.h" />
+    <ClInclude Include="IBString.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="OrderState.h" />
+    <ClInclude Include="ScannerSubscription.h" />
+    <ClInclude Include="shared_ptr.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TagValue.h" />
+    <ClInclude Include="TwsSocketClientErrors.h" />
+  </ItemGroup>
+</Project>

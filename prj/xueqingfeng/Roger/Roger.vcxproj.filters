@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e99080af-c9a0-44fd-ae2f-b9d9f86912c3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{36a7ee8f-2cd7-45d2-bcd0-772eb255163d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{ef71f436-f170-4b9b-9429-a6704fc3588f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="portf_ui">
+      <UniqueIdentifier>{99aef3da-f01b-4fad-90d1-181523f56ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_portf_Arbitrage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_portf_Arbitrage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_portf_PairTrading.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_portf_PairTrading.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="portf_Arbitrage.cpp">
+      <Filter>portf_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="portf_PairTrading.cpp">
+      <Filter>portf_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Condition.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Mutex.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\SpinLock.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\Thread.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="configInfo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WindApi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketDataTable.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MarketDataTable.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\qcustomplot.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcustomplot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="portf_Arbitrage.h">
+      <Filter>portf_ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="portf_PairTrading.h">
+      <Filter>portf_ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MarketDataTable.h">
+      <Filter>source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\qcustomplot.h">
+      <Filter>lib</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configInfo.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Condition.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Mutex.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\QueueBuffer.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Thread.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SpinLock.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\WAPIWrapperCpp.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="RealTimeTick.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="WindApi.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDisplay.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Array.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SimpleMath.hpp">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+</Project>
